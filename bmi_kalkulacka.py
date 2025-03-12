@@ -14,9 +14,9 @@ bmi = Martin_vaha / (Martin_vyska / 100) ** 2
 
 
 if bmi < 18.5:	
- kategorie = "podvýživa"
+    kategorie = "podvýživa"
 elif bmi < 25:
-  kategorie = "zdravá váha"
+    kategorie = "zdravá váha"
 elif bmi < 30:
     kategorie = "mírná nadváha"
 elif bmi < 40:
@@ -24,7 +24,7 @@ elif bmi < 40:
 elif bmi > 40:
     kategorie = "těžká obezita"
 else: 
-  kategorie = "špatně zadaná data"
+    kategorie = "špatně zadaná data"
 
 print(jmeno, " má BMI: ", bmi, ", což spadá do kategorie ", kategorie, ".", sep="")
  
