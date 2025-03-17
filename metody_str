@@ -11,5 +11,6 @@ print(mala_pismena)
 velka_pismena = (mala_pismena.title())
 print(heslo4)
 
+#mohu zapsat na 1 řádek
 ukol = (mail.split("@")[0].replace(".", " ").title())
 print(ukol)
