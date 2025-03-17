@@ -2,14 +2,14 @@
 #2. nahraď ve `"matous.holinka"` znak `"."` pomocí mezery `" "`,
 #3. vypiš jméno *title-case*, tedy `"Matous Holinka"`.
 
-heslo = "matous.holinka@gmail.com"
+mail = "matous.holinka@gmail.com"
 
-heslo2 = (heslo.split("@")[0])
-print(heslo2)
-heslo3 = (heslo2.replace(".", " "))
-print(heslo3)
-heslo4 = (heslo3.title())
+login = (heslo.split("@")[0])
+print(login)
+mala_pismena = (login.replace(".", " "))
+print(mala_pismena)
+velka_pismena = (mala_pismena.title())
 print(heslo4)
 
-heslo5 = (heslo.split("@")[0].replace(".", " ").title())
-print(heslo5)
+ukol = (mail.split("@")[0].replace(".", " ").title())
+print(ukol)
